@@ -319,14 +319,6 @@ body {
 .coin.skeleton .side .spoke:after {
   background: rgba(204, 204, 255, 0.2);
 }
-body {
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 @-webkit-keyframes spin {
   from {
     -webkit-transform: rotateY(0deg);
