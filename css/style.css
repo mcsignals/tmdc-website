@@ -38,7 +38,6 @@ h2 strong {
 .countdown {
   width: 720px;
   margin: 0 auto;
-  padding-top: 200px;
 }
 .countdown .bloc-time {
   float: left;
@@ -189,20 +188,19 @@ body {
 }
 
 .purse {
-  height: 160px;
-  width: 160px;
+  height: 240px;
+  width: 240px;
   position: absolute;
-  top: 50%;
   left: 50%;
-  margin-top: -80px;
-  margin-left: -80px;
+  margin-top: -120px;
+  margin-left: -120px;
   -webkit-perspective: 1000;
   -webkit-box-reflect: below 0 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.2));
   -webkit-filter: saturate(1.45) hue-rotate(2deg);
 }
 .coin {
-  height: 160px;
-  width: 160px;
+  height: 240px;
+  width: 240px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -webkit-transform-origin: 50%;
@@ -212,8 +210,8 @@ body {
 .coin .front,
 .coin .back {
   position: absolute;
-  height: 160px;
-  width: 160px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
   background-size: cover;
 }
@@ -224,12 +222,12 @@ body {
   -webkit-transform: translateZ(-8px) rotateY(180deg);
 }
 .coin .side {
-  -webkit-transform: translateX(72px);
+  -webkit-transform: translateX(110px);
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
 }
 .coin .side .spoke {
-  height: 160px;
+  height: 240px;
   width: 20px;
   position: absolute;
   -webkit-transform-style: preserve-3d;
@@ -239,7 +237,7 @@ body {
 .coin .side .spoke:after {
   content: '';
   display: block;
-  height: 15.68274245px;
+  height: 24px;
   width: 20px;
   position: absolute;
   -webkit-transform: rotateX(84.375deg);
@@ -338,8 +336,8 @@ body {
   }
 }
 .coin .front {
-  background-image: url("../images/coin.png");
+  background-image: url("../images/front.png");
 }
 .coin .back {
-  background-image: url("../images/coin.png");
+  background-image: url("../images/back.png");
 }
