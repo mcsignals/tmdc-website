@@ -25,6 +25,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet">
   <link href="assets/css/normalize.css" rel="stylesheet">
   <link href="assets/css/flexboxgrid.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css" rel="stylesheet">
   <link href="assets/css/app.css" rel="stylesheet">
   <title>The Million Dollar Coin</title>
 </head>
@@ -129,7 +130,27 @@
               </h1>
             </div>
           </div>
-          <p class="col-xs-4">THE SALE STARTS ON</p>
+          <div class="col-xs-6">
+            <p>THE SALE STARTS ON</p>
+            <div id="clockdiv">
+              <div>
+                <span class="days"></span>
+                <div class="smalltext">Days</div>
+              </div>
+              <div>
+                <span class="hours"></span>
+                <div class="smalltext">Hours</div>
+              </div>
+              <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+              </div>
+              <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Seconds</div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section class="row middle-xs center-xs newsletter">
