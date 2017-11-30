@@ -1,4 +1,21 @@
-/*Newsletter*/
+
+
+.newsletterform input {
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 600;
+	letter-spacing: .02rem;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+	height: 4rem;
+	padding-top: .8rem;
+	padding-left: 11rem;
+	transition: all .4s ease;
+	z-index: 2;
+}
+
+/*
 header .newsletter .newsletterform .newsletterfields,
 header .newslettermodal .newsletterform .newsletterfields,
 footer .newsletter .newsletterform .newsletterfields {
@@ -25,26 +42,7 @@ header .newslettermodal .newsletterform {
 	padding-bottom: 3rem;
 }
 
-/*Email Input*/
-header .newsletter .newsletterform .newsletterfields input[type="email"].email,
-header .newslettermodal .newsletterform .newsletterfields input[type="email"].email,
-footer .newsletter .newsletterform .newsletterfields input[type="email"].email {
-	color: rgba(52, 73, 94, .8);
-	font-weight: 600;
-	letter-spacing: .02rem;
-	font-size: 1.2rem;
-	line-height: 1.2rem;
-	background-color: rgba(0, 0, 0, 0);
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	border-bottom: .2rem #FFFFFF solid;
-	height: 4rem;
-	padding-top: .8rem;
-	padding-left: 11rem;
-	transition: all .4s ease;
-	z-index: 2;
-}
+
 
 footer .newsletter .newsletterform .newsletterfields input[type="email"].email {
 	border-bottom: .2rem rgba(255,255,255,.8) solid;
@@ -64,7 +62,7 @@ footer .newsletter .newsletterform .newsletterfields input[type="email"].email:f
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
-/*Email Label*/
+// Email Label
 header .newsletter .newsletterform .newsletterfields label.emaillabel,
 header .newslettermodal .newsletterform .newsletterfields label.emaillabel,
 footer .newsletter .newsletterform .newsletterfields label.emaillabel {
@@ -139,7 +137,7 @@ footer .newsletter .newsletterform .newsletterfields button[type="submit"].butto
 	transform: scale(1.05);
 }
 
-/*Newsletter Modal*/
+// Newsletter Modal
 aside.modalNewsletter {
 	position: fixed;
 	left: 0;

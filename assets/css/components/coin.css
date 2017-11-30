@@ -12,7 +12,7 @@
 .coin {
   height: 350px;
   width: 350px;
-  position: absolute;
+  //position: absolute;
   -webkit-transform-style: preserve-3d;
   -webkit-transform-origin: 50%;
   -webkit-animation: spin 20s infinite;

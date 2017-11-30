@@ -2,12 +2,21 @@
 @import "components/typography.css";
 @import "components/layout.css";
 @import "components/header.css";
-@import "components/newsletter.css";
+@import "components/menu.css";
+@import "components/coin.css";
 @import "components/content.css";
+@import "components/newsletter.css";
+/*
+
+
+
+
+
+
 @import "components/footer.css";
 @import "components/responsive.css";
 @import "components/animations.css";
-@import "components/coin.css";
+
 
 .title-container {
   margin: 0 auto;
@@ -19,7 +28,6 @@
   padding-left:80px;
 }
 
-/* Clock Styling */
 #clockdiv{
 	font-family: sans-serif;
 	color: #fff;
@@ -47,3 +55,4 @@
 	padding-top: 5px;
 	font-size: 16px;
 }
+*/
